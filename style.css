@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body{
+    display: grid;
+    place-items: center;
+    background: rgb(1, 43, 57);
+font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    width: 420px;
+    height: 110px;
+    margin-top: 33%;
+    border-radius: 4px;
+}
+.wrapper {
+    
+    background-color:rgb(250, 34, 88);;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+  @keyframes example {
+    0%   {background-color:rgb(250, 34, 88); }
+    25%  {background-color:rgb(49, 241, 58); }
+    50%  {background-color:rgb(93, 212, 233); }
+    75%  {background-color:rgb(161, 28, 144); }
+    100% {background-color:rgb(65, 138, 233); }
+  }
+.wrapper .clock{
+    box-shadow: inset;
+    box-shadow: ofset;
+    box-shadow: 0px 10px 50px 5px #be0390;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 405px;
+    height: 95px;
+}
+#clock {
+    
+    background-color:rgb(250, 34, 88);;
+    animation-name: example;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+  @keyframes example {
+    0%   {background-color:rgb(250, 34, 88); }
+    5%   {background-color:orangered; }
+    10%  {background-color:green; }
+    15%  {background-color:grey; }
+    20%  {background-color:crimson; }
+    25%  {background-color:pink }
+    30%  {background-color:chartreuse; }
+    35%  {background-color:chocolate; }
+    40%  {background-color:cornflowerblue }
+    45%  {background-color:cyan; }
+    50%  {background-color:rgb(2, 91, 107); }
+    55%  {background-color:blue; }
+    60%  {background-color:goldenrod }
+    65%  {background-color:rgb(231, 84, 15); }
+    70%  {background-color:rgb(252, 36, 8); }
+    75%  {background-color:rgb(85, 4, 74); }
+    80%  {background-color:rgb(250, 34, 88); }
+    85%  {background-color:rgb(34, 182, 250); }
+    90%  {background-color:red}
+    95%  {background-color:rgb(109, 34, 230); }
+    100% {background-color:rgb(5, 104, 91); }
+  }
+.wrapper .clock:hover{
+    box-shadow: 0px 10px 80px 10px rgb(45, 169, 226);
+}
+.clock #time{
+    font-size: 65px;
+    color: white;
+    padding: 12px;
+}
